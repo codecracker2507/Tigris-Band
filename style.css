@@ -1,0 +1,183 @@
+html {
+  font-size: 10px;
+  background: url(img/back.jpg) center;
+  
+  background-size: cover;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+h1
+{
+  align-items: center;
+  text-align: center;
+  color:white;
+  font-size: 5rem;
+  background-color: black;
+}
+h2{
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top:-162px;
+  font-size: 2.5rem;
+  color:azure;
+  background-color: black;
+  
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key1 {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
+  text-shadow: 0 0 .5rem black;
+}
+
+.key2 {
+  border: .4rem solid rgb(0, 0, 0);
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background: rgb(75, 7, 135);
+  text-shadow: 0 0 .5rem rgb(255, 255, 255);
+}
+
+.key3 {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background: rgb(32, 71, 231);
+  text-shadow: 0 0 .5rem rgb(255, 255, 255);
+}
+
+.key4 {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background: rgb(24, 194, 251);
+  text-shadow: 0 0 .5rem rgb(255, 255, 255);
+}
+
+.key5 {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background: rgb(2, 124, 6);
+  text-shadow: 0 0 .5rem rgb(255, 255, 255);
+}
+
+.key6 {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background: rgb(35, 231, 32);
+  text-shadow: 0 0 .5rem rgb(255, 255, 255);
+}
+
+.key7 {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background: rgb(247, 251, 12);
+  text-shadow: 0 0 .5rem rgb(255, 254, 254);
+}
+
+.key8 {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background: rgb(231, 108, 7);
+  text-shadow: 0 0 .5rem rgb(255, 255, 255);
+}
+
+.key9 {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background: rgb(245, 7, 7);
+  text-shadow: 0 0 .5rem rgb(255, 255, 255);
+}
+.playing {
+  transform: scale(1.1);
+  border-color: #fbff00;
+  box-shadow: 0 0 1rem #ff0404;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
